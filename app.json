@@ -11,20 +11,27 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "bundleIdentifier": "com.lavaggiocertosa.app"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.lavaggiocertosa.app",
+      "versionCode": 100
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "69852fb7-df0f-4025-a344-4e258fd87b70"
+      }
     }
   }
 }
